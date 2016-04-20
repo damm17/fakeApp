@@ -1,0 +1,304 @@
+body {
+  padding-top: 50px;
+  font-family: "Exo 2", "Arial", sans-serif;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+    background-color: rgba(255,255,255,0.9);
+    border-bottom:1px solid #2c3e50;
+}
+
+#navbar li a {
+    text-transform: uppercase;
+    font-size:14px;
+    color:#2e8ece;
+}
+
+#navbar li.active a, #navbar li.active a:hover {
+    background:none;
+    color:#aaa;
+}
+
+#navbar li a:hover {
+    background-color: #3498db;
+    color:#ecf0f1;
+}
+
+#myCarousel .carousel-inner .item .relleno {
+    background:#333;
+    height:400px;
+    width:100%;
+}
+
+#myCarousel .carousel-inner .item .first-slide {
+    background: url("../img/header1.jpg") no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#myCarousel .carousel-inner .item .second-slide {
+    background: url("../img/header2.jpg") no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#myCarousel .carousel-inner .item .third-slide {
+    background: url("../img/header3.jpg") no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#myCarousel .carousel-indicators {
+    bottom:0;
+}
+
+#myCarousel .carousel-caption {
+    background-color:rgba(0,0,0,.2);
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+    bottom:0;
+}
+
+#myCarousel .carousel-caption h1 {
+    font-size:40px;
+    margin-top:10px;
+}
+
+#myCarousel .carousel-caption p {
+    font-size:16px;
+}
+
+#myCarousel .carousel-caption a {
+    font-size:16px;
+    text-transform: uppercase;
+}
+
+#myCarousel .carousel-caption a.btn-warning {
+    background-color:rgba(243, 156, 18,1);
+}
+
+@media (max-width:768px) {
+    #myCarousel .carousel-caption h1 {
+        font-size:30px;
+    }
+    #myCarousel .carousel-caption p {
+        font-size:14px;
+    }
+    #myCarousel .carousel-caption a {
+        font-size:14px;
+        margin-bottom:10px;
+    }
+}
+
+#caracteristicas {
+    padding:70px 0;
+    text-align: center;
+    border-top:1px solid rgba(44, 62, 80,1.0);
+}
+
+#caracteristicas .container {
+    padding:0 50px;
+}
+
+#caracteristicas i.fa-circle {
+    color:rgba(211, 84, 0,.6);
+}
+
+#caracteristicas p {
+    margin:20px 0;
+}
+
+#caracteristicas a{
+    font-size:16px;
+    text-transform: uppercase;
+}
+
+a.btn-warning {
+    background-color:rgba(243, 156, 18,.6);
+    border:none;
+    border:1px solid rgba(211, 84, 0,.2);
+}
+
+#caracteristicas a.btn-warning:hover {
+    background-color: rgba(211, 84, 0,.6);
+}
+
+@media (max-width:768px) {
+    #caracteristicas a{
+        margin-bottom:30px;
+    }
+    p.lead {
+        font-size:18px;
+    }
+}
+
+#video {
+    color:white;
+    background:rgba(52, 152, 219,.6);
+    padding:50px 0;
+}
+
+#video iframe {
+    width:100%;
+    height:300px;
+    margin-top:30px;
+}
+
+#telefono {
+    padding:50px 0;
+}
+
+#telefono p, #tablet p {
+    margin:20px 0;
+}
+
+#telefono a, #tablet a {
+    text-transform: uppercase;
+    font-size:16px;
+    margin-right:20px;
+}
+
+#tablet {
+    background: url("../img/tablet.jpg") no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding:50px 0;
+}
+
+#tablet .columnaBlanca {
+    color:white;
+    background: rgba(0, 0, 0,.2);
+    border-radius:5px;
+    padding:20px;
+    min-height: 400px;
+}
+
+#tablet h2 {
+    margin-top:10px;
+}
+
+
+#team {
+    text-align: center;
+    padding:50px 0;
+}
+
+#team h2 {
+    margin-top:0;
+}
+
+#team p.lead {
+    margin-bottom:40px;
+}
+
+#team p.profesion {
+    color:rgba(243, 156, 18,.8);
+}
+
+#team img {
+    border-radius:100px;
+}
+
+#team i {
+    color:rgba(52, 152, 219,.7);
+    margin-left:5px;
+}
+
+#team a i:hover {
+    color:rgba(52, 152, 219,1);
+}
+
+@media (max-width:768px) {
+    #team i {
+        margin-bottom:30px;
+    }
+}
+
+footer {
+    padding-top:20px;
+    background: rgba(52, 152, 219,.7);
+    color:white;
+}
+
+footer form {
+    padding:10px 0;
+}
+
+footer h5 {
+    font-size:18px;
+    margin-top:0;
+}
+
+footer main p {
+    margin:15px 0;
+}
+
+footer section {
+    margin-top:20px;
+    background:rgba(52, 152, 219,.9);
+    padding:10px 0;
+}
+
+footer section p {
+    margin:0;
+}
+
+button.btn-warning {
+    background-color:rgba(243, 156, 18,1.0);
+    text-transform: uppercase;
+}
+
+footer ul {
+    list-style: none;
+    margin:0;
+}
+
+footer ul li {display: inline-block}
+
+footer ul li a{
+    margin-left:20px;
+    color:rgba(255,255,255,.65);
+    text-transform: uppercase;
+}
+
+footer ul li a:hover {
+    text-decoration:none;
+    cursor: pointer;
+    color:white;
+}
+
+@media (max-width:991px) {
+    footer section ul li a {
+        margin-left:5px;
+    }
+    #telefono img {
+        margin-top:70px;
+    }
+    #video iframe {
+        margin-top:140px;
+    }
+}
+
+@media (max-width:768px) {
+    footer h5 {
+        margin-top:30px;
+    }
+    footer section ul li a {
+        font-size:12px;
+        margin-left:5px;
+        padding:0;
+    }
+}
+

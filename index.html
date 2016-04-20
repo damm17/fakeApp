@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Página de Ejemplo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+    <!-- Fontawesome CSS -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,400italic,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom-style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body id="home">
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#home">Logo</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a class="page-scroll" href="#home">Inicio</a></li>
+            <li><a class="page-scroll" href="#telefono">Características</a></li>
+            <li><a class="page-scroll" href="#team">Nuestro Equipo</a></li>
+            <li><a  class="page-scroll" href="#contacto">Contacto</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+     <!-- Carousel
+    ================================================== -->
+    <main>
+     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="first-slide relleno"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Potencie su Negocio</h1>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis ab sequi non cum beatae cupiditate maxime consequuntur velit, error, quo iure. Et nam quae facilis reiciendis libero velit quis illum?</p>
+              <p><a class="btn btn-primary" data-toggle="modal" data-target="#subscribir" role="button">Subscribirse</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="second-slide relleno"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Desarrollado por Expertos</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-warning page-scroll" href="#video" role="button">Más información</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="third-slide relleno"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Empiece hoy mismo</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-primary page-scroll" href="#contacto" role="button">Contacto</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+     <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a> -->
+    </div><!-- /.carousel -->
+    </main>
+    
+    <!-- 
+    ============
+        MODAL
+    ============ 
+    -->
+    
+    <div class="modal fade" id="subscribir" tabindex="-1" role="dialog" aria-labelledby="newsletter">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times"></i></span></button>
+            <h4 class="modal-title" id="newsletter">Subscribirse a nuestro Newsletter</h4>
+          </div>
+          <div class="modal-body">
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem tenetur obcaecati soluta, vero ut nulla totam minus repellat maxime a vel debitis laborum aliquam ducimus impedit nisi aut deleniti ea.</p>
+            <form class="form-inline">
+              <div class="form-group">
+                <label class="sr-only" for="exampleInputEmail3">Nombre Completo</label>
+                <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Nombre">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="exampleInputPassword3">Dirección de Email</label>
+                <input type="email" class="form-control" id="exampleInputPassword3" placeholder="Email">
+              </div>
+              <button type="submit" class="btn btn-warning">Subscribirse</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <section id="caracteristicas">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                   <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                   </span>
+                   <h3>100% Segura</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint accusantium totam illo necessitatibus consequuntur corporis, cupiditate soluta vel!</p>
+                   <a href="#" class="btn btn-warning">Más Información</a>
+                </div>
+                <div class="col-sm-4">
+                    <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-battery-full fa-stack-1x fa-inverse"></i>
+                   </span>
+                   <h3>Máximo Rendimiento</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint accusantium totam illo necessitatibus consequuntur corporis, cupiditate soluta vel!</p>
+                      <a href="#" class="btn btn-warning">Más Información</a>
+                </div>
+                <div class="col-sm-4">
+                    <span class="fa-stack fa-4x">
+                      <i class="fa fa-circle fa-stack-2x"></i>
+                      <i class="fa fa-feed fa-stack-1x fa-inverse"></i>
+                   </span>
+                   <h3>Constántemente Actualizada</h3>
+                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint accusantium totam illo necessitatibus consequuntur corporis, cupiditate soluta vel!</p>
+                   <a href="#" class="btn btn-warning">Más Información</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="video">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Descubra el alcance de nuestra App!</h2>
+                    <p class="lead">Vea cómo puede llevar su negocio al próximo nivel.</p>
+                    <p>Webtwo ipsum dolor sit amet, eskobo chumby doostang bebo. Knewton bitly meebo eskobo hojoki scribd xobni lala jumo palantir, bubbli blekko plaxo weebly yammer balihoo joyent dropio doostang zoodles octopart, scribd jiglu greplin spock greplin tumblr yoono wufoo kippt. Yuntaa plickers zinch shopify zappos sococo nuvvo jaiku chartly wesabe, convore spotify wufoo sclipo doostang insala foodzie napster doostang, bebo napster hipmunk vuvox cloudera sococo chartly disqus. Chartly loopt bubbli stypi shopify jibjab grockit kazaa wikia, sococo plugg balihoo skype jabber elgg blippy, plaxo oovoo revver kosmix sclipo grockit ning. Spock edmodo ning twones odeo, ngmoco zoodles.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam sint, nesciunt! Facilis obcaecati esse placeat itaque sunt ut magni architecto dolore amet facere? Quas enim dolorum nostrum, voluptatibus obcaecati dignissimos.</p>
+                </div>
+                
+                <div class="col-sm-6">
+                    <iframe src="https://player.vimeo.com/video/54298665?byline=0&badge=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="telefono">
+        <div class="container">
+            <div class="row">
+               <div class="col-sm-6">
+                    <img src="img/telefono.png" class="img-responsive center-block">
+                </div>
+                <div class="col-sm-6">
+                    <h2>Opere directamente con su Smartphone</h2>
+                    <p class="lead">La nueva interfaz hará su trabajo mucho más fácil.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error aliquid temporibus distinctio vel, accusamus sunt animi cumque, assumenda. Voluptate, recusandae soluta sint dignissimos reiciendis? Nobis officiis accusamus ratione ut natus!</p>
+                    <p>Joyent voki kosmix gooru dropio oooooc tumblr dropio trulia odeo omgpop grockit voxy etsy bitly twones, jaiku zoho zoodles movity convore blekko loopt fleck scribd joyent qeyno wakoopa jaiku xobni. Eduvant weebly jiglu geni lijit babblely ifttt jiglu blekko bubbli, spotify vuvox joukuu lijit blyve oooooc jumo tivo, quora ngmoco disqus mozy blekko empressr waze mozy.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aspernatur perspiciatis asperiores blanditiis, voluptatibus recusandae assumenda. Veritatis, laboriosam, odit est sint aspernatur natus deserunt repellat laborum amet perferendis nostrum, dolores.</p>
+                    <a href="#" class="btn btn-primary">Ver Demo</a>
+                    <a href="#" class="btn btn-warning">Comprar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="tablet">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 columnaBlanca">
+                    <h2>Analice resultados al instante!</h2>
+                    <p class="lead">Más de 200 opciones de gráficos distintas.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error aliquid temporibus distinctio vel, accusamus sunt animi cumque, assumenda. Voluptate, recusandae soluta sint dignissimos reiciendis? Nobis officiis accusamus ratione ut natus!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam aspernatur perspiciatis asperiores blanditiis, voluptatibus recusandae assumenda. Veritatis, laboriosam, odit est sint aspernatur natus deserunt repellat laborum amet perferendis nostrum, dolores.</p>
+                    <a href="#" class="btn btn-primary">Ver demo</a>
+                    <a href="#" class="btn btn-warning">comprar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="team">
+        <h2>Nuestro Grupo de Expertos</h2>
+        <p class="lead">A la vanguardia de la tecnología</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <img src="img/perfil1.jpg" class="img-responsive center-block">
+                    <h4>John 'White' Snowy</h4>
+                    <p class="profesion">Programador C++</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quod, minus rerum harum.</p>
+                    <a href="#team"><i class="fa fa-facebook-square fa-lg"></i></a>
+                    <a href="#team"><i class="fa fa-linkedin-square fa-lg"></i></a>
+                    <a href="#team"><i class="fa fa-twitter-square fa-lg"></i></a>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/perfil2.jpg" class="img-responsive center-block">
+                    <h4>Jennifer Bergara</h4>
+                    <p class="profesion">Diseñadora UI/UX</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quod, minus rerum harum.</p>
+                    <a href="#team"><i class="fa fa-facebook-square fa-lg"></i></a>
+                    <a href="#team"><i class="fa fa-linkedin-square fa-lg"></i></a>
+                    <a href="#team"><i class="fa fa-twitter-square fa-lg"></i></a>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/perfil3.jpg" class="img-responsive center-block">
+                    <h4>Dick Peanut</h4>
+                    <p class="profesion">Desarrollador Front-End</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quod, minus rerum harum.</p>
+                    <a href="#team"><i class="fa fa-facebook-square fa-lg"></i></a>
+                    <a href="#team"><i class="fa fa-linkedin-square fa-lg"></i></a>
+                    <a href="#team"><i class="fa fa-twitter-square fa-lg"></i></a>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/perfil4.jpg" class="img-responsive center-block">
+                    <h4>Marta Leguizamon</h4>
+                    <p class="profesion">Analista de Sistemas</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quod, minus rerum harum.</p>
+                    <a href="#team"><i class="fa fa-facebook-square fa-lg"></i></a>
+                    <a href="#team"><i class="fa fa-linkedin-square fa-lg"></i></a>
+                    <a href="#team"><i class="fa fa-twitter-square fa-lg"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <main id="contacto">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                       <h5>Contacto</h5>
+                        <form>
+                          <div class="form-group">
+                            <label for="exampleInputEmail1" class="sr-only">Nombre Completo</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nombre">
+                          </div>
+                          <div class="form-group">
+                            <label for="exampleInputPassword1" class="sr-only">Email</label>
+                            <input type="email" class="form-control" id="exampleInputPassword1" placeholder="Email">
+                          </div>
+                          
+                          <div class="form-group">
+                            <label for="exampleInputPassword1" class="sr-only">Mensaje</label>
+                              <textarea class="form-control" id="exampleInputPassword1" placeholder="Mensaje"></textarea>
+                          </div>
+                          
+                          <button type="submit" class="btn btn-warning">Enviar</button>
+                        </form>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                        <h5>Información Adicional</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam deleniti, consectetur tempora optio, sit natus consequuntur quidem at voluptas libero voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. nsectetur tempora optio, sit natus consequu.</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam deleniti, consectetur tempora optio, sit natus consequuntur quidem at voluptas libero voluptatem</p>
+                    </div> 
+                </div>
+            </div>
+        </main>
+        <section>
+           <div class="container">
+               <div class="row">
+                   <div class="col-xs-6">
+                   <p>Copyright &copy; 2015 damian-bertazza.com.</p>
+                   </div>
+                   <div class="col-xs-6">
+                       <ul class="pull-right">
+                           <li><a class="page-scroll" href="#home">Inicio</a></li>
+                           <li><a class="page-scroll" href="#telefono">Características</a></li>
+                           <li class="page-scroll" href="#team"><a>Nuestro Equipo</a></li>
+                       </ul>
+                   </div>
+               </div>
+           </div>
+            
+        </section>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
